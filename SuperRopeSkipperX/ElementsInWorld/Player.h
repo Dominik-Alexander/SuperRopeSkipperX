@@ -7,8 +7,6 @@
 #include "../Systems/Sound.h"
 #include "../SpriteSheet.h"
 
-#include "../SoundEffect.h"
-
 class Player
 {
 private:
