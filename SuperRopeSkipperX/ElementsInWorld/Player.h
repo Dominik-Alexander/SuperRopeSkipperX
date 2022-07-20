@@ -2,9 +2,9 @@
 
 #include <DirectXMath.h>
 
-#include "../Systems/Input.h"
-#include "../Systems/Graphics.h"
-#include "../Systems/Sound.h"
+#include "../Engine/Input.h"
+#include "../Engine/Graphics.h"
+#include "../Engine/Sound.h"
 #include "../SpriteSheet.h"
 
 class Player

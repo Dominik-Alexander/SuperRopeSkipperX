@@ -58,22 +58,22 @@
     <ClCompile Include="ElementsInWorld\Rope.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Systems\D2DFunctionality.cpp">
+    <ClCompile Include="Engine\D2DFunctionality.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Systems\DWriteFunctionality.cpp">
+    <ClCompile Include="Engine\DWriteFunctionality.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Systems\Graphics.cpp">
+    <ClCompile Include="Engine\Graphics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Systems\Input.cpp">
+    <ClCompile Include="Engine\Input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Systems\Persistence.cpp">
+    <ClCompile Include="Engine\Persistence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Systems\Sound.cpp">
+    <ClCompile Include="Engine\Sound.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FontStyle.cpp">
@@ -105,22 +105,22 @@
     <ClInclude Include="ElementsInWorld\Rope.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Systems\D2DFunctionality.h">
+    <ClInclude Include="Engine\D2DFunctionality.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Systems\DWriteFunctionality.h">
+    <ClInclude Include="Engine\DWriteFunctionality.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Systems\Graphics.h">
+    <ClInclude Include="Engine\Graphics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Systems\Input.h">
+    <ClInclude Include="Engine\Input.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Systems\Persistence.h">
+    <ClInclude Include="Engine\Persistence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Systems\Sound.h">
+    <ClInclude Include="Engine\Sound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FontStyle.h">

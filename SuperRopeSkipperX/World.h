@@ -4,9 +4,9 @@
 #include <thread>
 #include <string>
 
-#include "Systems/Input.h"
-#include "Systems/Graphics.h"
-#include "Systems/Persistence.h"
+#include "Engine/Input.h"
+#include "Engine/Graphics.h"
+#include "Engine/Persistence.h"
 #include "PlayerData.h"
 #include "SpriteSheet.h"
 #include "FontStyle.h"
@@ -14,7 +14,7 @@
 #include "ElementsInWorld/Rope.h"
 #include "ElementsInWorld/Post.h"
 
-#include "Systems/Sound.h"
+#include "Engine/Sound.h"
 
 class World
 {

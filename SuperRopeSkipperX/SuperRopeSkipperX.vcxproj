@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -162,12 +162,12 @@
     <ClCompile Include="PlayerData.cpp" />
     <ClCompile Include="ElementsInWorld\Post.cpp" />
     <ClCompile Include="SpriteSheet.cpp" />
-    <ClCompile Include="Systems\D2DFunctionality.cpp" />
-    <ClCompile Include="Systems\DWriteFunctionality.cpp" />
-    <ClCompile Include="Systems\Graphics.cpp" />
-    <ClCompile Include="Systems\Input.cpp" />
-    <ClCompile Include="Systems\Persistence.cpp" />
-    <ClCompile Include="Systems\Sound.cpp" />
+    <ClCompile Include="Engine\D2DFunctionality.cpp" />
+    <ClCompile Include="Engine\DWriteFunctionality.cpp" />
+    <ClCompile Include="Engine\Graphics.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\Persistence.cpp" />
+    <ClCompile Include="Engine\Sound.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -178,12 +178,12 @@
     <ClInclude Include="PlayerData.h" />
     <ClInclude Include="ElementsInWorld\Post.h" />
     <ClInclude Include="SpriteSheet.h" />
-    <ClInclude Include="Systems\D2DFunctionality.h" />
-    <ClInclude Include="Systems\DWriteFunctionality.h" />
-    <ClInclude Include="Systems\Graphics.h" />
-    <ClInclude Include="Systems\Input.h" />
-    <ClInclude Include="Systems\Persistence.h" />
-    <ClInclude Include="Systems\Sound.h" />
+    <ClInclude Include="Engine\D2DFunctionality.h" />
+    <ClInclude Include="Engine\DWriteFunctionality.h" />
+    <ClInclude Include="Engine\Graphics.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\Persistence.h" />
+    <ClInclude Include="Engine\Sound.h" />
     <ClInclude Include="WaveHeaderType.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>

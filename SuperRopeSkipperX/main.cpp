@@ -5,23 +5,17 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 	UNREFERENCED_PARAMETER(hPrevInstance);
 	UNREFERENCED_PARAMETER(lpCmdLine);
 
-	Game* game = new Game();
+	Game game;
 
-	if (FAILED(game->Initialize(hInstance, nCmdShow)))
+	if (FAILED(game.Initialize(hInstance, nCmdShow)))
 	{
 		MessageBox(NULL, L"Could not initialize game!", L"Error!", MB_ICONERROR);
 		return -1;
 	}
 	
-	game->Run();
+	game.Run();
 
-	game->Shutdown();
-
-	if (game)
-	{
-		delete game;
-		game = NULL;
-	}
+	game.Shutdown();
 
 	return 0;
 }
