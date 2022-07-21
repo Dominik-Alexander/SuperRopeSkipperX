@@ -5,7 +5,7 @@
 #include "../Engine/Input.h"
 #include "../Engine/Graphics.h"
 #include "../Engine/Sound.h"
-#include "../SpriteSheet.h"
+#include "../Engine/SpriteSheet.h"
 
 class Player
 {

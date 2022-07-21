@@ -5,7 +5,7 @@
 #include <dsound.h>
 #include <stdio.h>
 
-#include "../WaveHeaderType.h"
+#include "WaveHeaderType.h"
 
 #pragma comment(lib, "dsound.lib")
 #pragma comment(lib, "dxguid.lib")

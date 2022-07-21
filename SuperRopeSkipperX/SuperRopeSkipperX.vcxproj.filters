@@ -76,7 +76,7 @@
     <ClCompile Include="Engine\Sound.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FontStyle.cpp">
+    <ClCompile Include="Engine\FontStyle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
@@ -88,7 +88,7 @@
     <ClCompile Include="PlayerData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteSheet.cpp">
+    <ClCompile Include="Engine\SpriteSheet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="World.cpp">
@@ -123,7 +123,7 @@
     <ClInclude Include="Engine\Sound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FontStyle.h">
+    <ClInclude Include="Engine\FontStyle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
@@ -132,10 +132,10 @@
     <ClInclude Include="PlayerData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SpriteSheet.h">
+    <ClInclude Include="Engine\SpriteSheet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WaveHeaderType.h">
+    <ClInclude Include="Engine\WaveHeaderType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="World.h">

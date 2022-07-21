@@ -156,12 +156,12 @@
   <ItemGroup>
     <ClCompile Include="ElementsInWorld\Player.cpp" />
     <ClCompile Include="ElementsInWorld\Rope.cpp" />
-    <ClCompile Include="FontStyle.cpp" />
+    <ClCompile Include="Engine\FontStyle.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PlayerData.cpp" />
     <ClCompile Include="ElementsInWorld\Post.cpp" />
-    <ClCompile Include="SpriteSheet.cpp" />
+    <ClCompile Include="Engine\SpriteSheet.cpp" />
     <ClCompile Include="Engine\D2DFunctionality.cpp" />
     <ClCompile Include="Engine\DWriteFunctionality.cpp" />
     <ClCompile Include="Engine\Graphics.cpp" />
@@ -173,18 +173,18 @@
   <ItemGroup>
     <ClInclude Include="ElementsInWorld\Player.h" />
     <ClInclude Include="ElementsInWorld\Rope.h" />
-    <ClInclude Include="FontStyle.h" />
+    <ClInclude Include="Engine\FontStyle.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="PlayerData.h" />
     <ClInclude Include="ElementsInWorld\Post.h" />
-    <ClInclude Include="SpriteSheet.h" />
+    <ClInclude Include="Engine\SpriteSheet.h" />
     <ClInclude Include="Engine\D2DFunctionality.h" />
     <ClInclude Include="Engine\DWriteFunctionality.h" />
     <ClInclude Include="Engine\Graphics.h" />
     <ClInclude Include="Engine\Input.h" />
     <ClInclude Include="Engine\Persistence.h" />
     <ClInclude Include="Engine\Sound.h" />
-    <ClInclude Include="WaveHeaderType.h" />
+    <ClInclude Include="Engine\WaveHeaderType.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

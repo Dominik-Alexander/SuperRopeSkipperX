@@ -3,7 +3,7 @@
 #include <DirectXMath.h>
 
 #include "../Engine/Graphics.h"
-#include "../SpriteSheet.h"
+#include "../Engine/SpriteSheet.h"
 
 class Rope
 {

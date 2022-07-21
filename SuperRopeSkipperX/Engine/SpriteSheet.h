@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Engine/Graphics.h"
+#include "Graphics.h"
 #include <wincodec.h>
 
 #include <string>
