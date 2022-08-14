@@ -79,7 +79,7 @@ HWND Game::CreateMainWindow(HINSTANCE hInstance)
 	if (!RegisterClassEx(&wndClass))
 		MessageBox(NULL, L"Could not register window class!", L"Error!", MB_ICONERROR);
 
-	RECT windowDimension = { 0, 0, 480, 320 };
+	RECT windowDimension = { 0, 0, WINDOW_WIDTH, WINDOW_HEIGHT };
 	AdjustWindowRect(&windowDimension, WS_OVERLAPPEDWINDOW ^ WS_THICKFRAME ^ WS_MAXIMIZEBOX, FALSE);
 
 	int windowPosX = (GetSystemMetrics(SM_CXSCREEN) - windowDimension.right - windowDimension.left) / 2;
@@ -101,9 +101,9 @@ void Game::Run()
 {
 	MSG msg = { 0 };
 
-	int timeToWait = static_cast<int>((1000 / 60) - (GetTickCount64() - ticksLastFrame));
+	int timeToWait = static_cast<int>(FRAME_TARGET_TIME - (GetTickCount64() - ticksLastFrame));
 
-	if (timeToWait > 0 && timeToWait <= (1000 / 60))
+	if (timeToWait > 0 && timeToWait <= FRAME_TARGET_TIME)
 	{
 		Sleep(timeToWait);
 	}

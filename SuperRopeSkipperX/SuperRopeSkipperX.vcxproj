@@ -171,6 +171,7 @@
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="ElementsInWorld\Player.h" />
     <ClInclude Include="ElementsInWorld\Rope.h" />
     <ClInclude Include="Engine\FontStyle.h" />

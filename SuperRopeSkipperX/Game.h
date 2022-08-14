@@ -5,6 +5,7 @@
 #include <Windows.h>
 #include <sysinfoapi.h>
 #include <synchapi.h>
+#include "Constants.h"
 #include "Engine/Input.h"
 #include "Engine/Graphics.h"
 #include "Engine/Sound.h"
