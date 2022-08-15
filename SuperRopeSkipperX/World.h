@@ -16,7 +16,7 @@
 
 #include "Engine/Sound.h"
 
-class World
+struct World
 {
 private: 
 	Input* pInput = 0;

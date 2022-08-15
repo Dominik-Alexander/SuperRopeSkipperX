@@ -4,7 +4,7 @@
 
 #pragma comment(lib, "d2d1.lib")
 
-class D2DFunctionality
+struct D2DFunctionality
 {
 private:
 	ID2D1Factory* pD2DFactory = 0;

@@ -7,7 +7,7 @@
 #include "../Engine/Sound.h"
 #include "../Engine/SpriteSheet.h"
 
-class Player
+struct Player
 {
 private:
 	Graphics* pGraphics = 0;

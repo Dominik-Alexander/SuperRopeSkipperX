@@ -15,9 +15,8 @@
 
 LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
-class Game
+struct Game
 {
-public:
 	Game();
 	~Game();
 

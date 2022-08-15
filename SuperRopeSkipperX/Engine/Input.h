@@ -8,7 +8,7 @@
 
 #pragma comment(lib, "dinput8.lib")
 
-class Input
+struct Input
 {
 private:
 	IDirectInput8* pDirectInput = 0;

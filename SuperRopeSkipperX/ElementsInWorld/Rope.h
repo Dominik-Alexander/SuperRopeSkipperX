@@ -5,7 +5,7 @@
 #include "../Engine/Graphics.h"
 #include "../Engine/SpriteSheet.h"
 
-class Rope
+struct Rope
 {
 private:
 	Graphics* pGraphics = 0;

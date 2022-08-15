@@ -3,7 +3,7 @@
 #include "D2DFunctionality.h"
 #include "DWriteFunctionality.h"
 
-class Graphics
+struct Graphics
 {
 private:
 	D2DFunctionality* pD2DFunctionality = 0;

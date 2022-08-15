@@ -5,7 +5,7 @@
 
 #pragma comment(lib, "dwrite.lib")
 
-class DWriteFunctionality
+struct DWriteFunctionality
 {
 private:
 	IDWriteFactory* pWriteFactory = 0;

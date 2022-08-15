@@ -11,7 +11,7 @@
 #pragma comment(lib, "dxguid.lib")
 #pragma comment(lib, "winmm.lib")
 
-class Sound
+struct Sound
 {
 private:
 	IDirectSound8* pDirectSound = 0;
