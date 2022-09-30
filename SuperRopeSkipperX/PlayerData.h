@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <fstream>
 
-class PlayerData
+struct PlayerData
 {
 private:
 	unsigned int highScore;

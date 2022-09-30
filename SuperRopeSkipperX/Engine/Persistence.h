@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 
-class Persistence
+struct Persistence
 {
 private:
 	std::string defaultLocation = "SavedData";

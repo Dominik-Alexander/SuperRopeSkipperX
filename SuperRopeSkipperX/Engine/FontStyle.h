@@ -3,7 +3,7 @@
 #include <string>
 #include "Graphics.h"
 
-class FontStyle
+struct FontStyle
 {
 private:
 	IDWriteTextFormat* pTextFormat = 0;

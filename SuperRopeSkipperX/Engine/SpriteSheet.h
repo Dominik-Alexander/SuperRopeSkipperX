@@ -7,7 +7,7 @@
 
 #pragma comment(lib, "windowscodecs.lib")
 
-class SpriteSheet
+struct SpriteSheet
 {
 private:
 	Graphics* pGraphics = 0;

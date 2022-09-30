@@ -4,7 +4,7 @@
 #include "../Engine/Graphics.h"
 #include "../Engine/SpriteSheet.h"
 
-class Post
+struct Post
 {
 private:
 	Graphics* pGraphics = 0;
